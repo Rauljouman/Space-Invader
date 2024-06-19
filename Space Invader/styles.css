@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {/*Imatge de fons*/
         background-image: url("assets/sprites/space.png");
     }
@@ -59,18 +61,11 @@ body {/*Imatge de fons*/
     }
     
     .results { /* Estil per el resultat */
-        border: 2px solid #ffffff;
-        border-radius: 20px; 
-        font-family: 'Roboto', sans-serif; 
-        color: #ff0000;
-        text-align: center; 
-        display: flex; 
-        justify-content: center; 
-        align-items: center; 
-        box-shadow: 0 0 20px #ffffff, 
-                    0 0 40px #ffffff, 
-                    0 0 60px #ffffff, 
-                    0 0 80px #ffffff; 
+        font-size: 2em;
+        color: #000;
+        background-color: #777; 
+        padding: 10px;
+        border-radius: 5px;
     }
     
     #restart { 
