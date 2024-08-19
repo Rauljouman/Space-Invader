@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-image: url("assets/sprites/space.png");
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Evita que aparezca la barra de desplazamiento */
+}
+
+#centrar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+}
+
+.grid {
+    width: 400px; /* Tamaño actualizado */
+    height: 400px; /* Tamaño actualizado */
+    border: 2px solid #0b753b;
+    box-shadow: 0 0 10px #0b753b, 
+                0 0 30px #0b753b, 
+                0 0 60px #0b753b; 
+    border-radius: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.grid div {
+    width: 25px; /* Tamaño actualizado para que quepan 16 divs en cada fila y columna */
+    height: 25px; /* Tamaño actualizado */
+}
+
+.invader {
+    background-image: url('assets/sprites/invader.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.shooter {
+    background-image: url('assets/sprites/shooter.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.laser {
+    background-image: url('assets/sprites/laserShooter.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.laserInvader {
+    background-image: url('assets/sprites/laserInvader.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.boom {
+    background-image: url('assets/sprites/boom.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.results {
+    font-size: 1.5em; /* Tamaño de fuente ajustado */
+    color: #000;
+    background-color: #777; 
+    padding: 8px; /* Ajustado */
+    border-radius: 5px;
+}
+
+#restart { 
+    border: 2px solid #0b753b;
+    box-shadow: 0 0 10px #0b753b, 
+                0 0 30px #0b753b, 
+                0 0 60px #0b753b; 
+    border-radius: 20px; 
+    padding: 8px 16px; /* Ajustado */
+    font-size: 1em; /* Tamaño de fuente ajustado */
+}
